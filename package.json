@@ -6,6 +6,9 @@
   "type": "module",
   "main": "server.js",
   "license": "GPL-3.0-or-later",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "esbuild client/main.js --bundle --format=esm --minify --sourcemap --outfile=public/app.js",
     "start": "npm run build && node server.js",
