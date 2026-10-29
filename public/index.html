@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chess Voice</title>
+    <link rel="stylesheet" href="/cg/chessground.base.css" />
+    <link rel="stylesheet" href="/cg/chessground.brown.css" />
+    <link rel="stylesheet" href="/cg/chessground.cburnett.css" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a href="#/" class="logo">♞ Chess Voice</a>
+      <div id="user"></div>
+    </header>
+    <main id="app"></main>
+    <div id="flash" role="status" hidden></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
